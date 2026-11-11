@@ -1,0 +1,28 @@
+# Maven build output
+target/
+
+# SQLite database (don't commit DB, only schema)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Spring Boot local configs
+application-local.properties
+
+# Docker
+.dockerignore
